@@ -1,0 +1,168 @@
+* { margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;}
+
+p.main { 
+    font-size: 15px;
+    line-height: 30px;
+    padding: 20px;}
+} 
+
+div.box {width: 800px;
+        display: block;
+        float: right;
+        margin-right: 60px;}
+
+div.box2 { width: 800px;
+        display: block;
+        float: left;}
+
+div.box3{  width: 800px;
+            display: block;
+            float: right; } 
+
+#left { width: 400px; 
+    display: block;
+    margin-top: 30px;
+    margin: 60px;
+float: left; } 
+
+#intro { height: 500px;
+            width: auto; } 
+
+#container {
+    display: block;
+    height: 1000px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+#container2 { 
+    height: 1000px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#container3 { 
+    height: 1000px; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left { margin-top: 300px; }
+
+
+
+h1 { 
+    font-size: 65px;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: lowercase;
+    font-weight: 900;}
+
+
+img.left1 { 
+    float: left; }
+
+img.left { position: absolute;
+    top: 1400px;
+    right: 20px; }
+
+img.right { display: inline-block;
+    
+    float: right; }
+
+img.center {display: block;
+            margin: 0px auto; }
+
+img.center1 {display: block;
+            padding-top: 90px;
+            margin: 0px auto;}
+
+img.icon{ height: 27px; }
+
+img.small { height: 300px; }
+
+img.medium { height: 400px;}
+
+img.large { height: 600px; }
+
+div.under { height: 600px;
+            display: block;
+            position: absolute;
+            top: 2000px;
+            left: 300px; }
+
+img.under { height: 600px;
+            display: block;
+            position: absolute;
+            top: 200px; }
+
+#Past { height: 800px;
+        width: 600px;
+        background-image: url('../img/Anim_past.gif');
+		background-repeat: no-repeat;
+		background-position: center center;
+		display: block;
+        float: left;
+
+		-webkit-transition: all 500ms ease;
+
+	}
+#apple { height: 400px;
+        width: 400px;
+    background-image: url('../img/applevand.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#apple:hover { background-image: url('../img/Cellphone.png');}
+
+
+
+#frame { border: 1px solid white;
+        height: 700px;
+        width: 333px;
+        background-image: url('../img/iphone6.png');
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: contain; 
+        display: block;
+        margin-left: 880px;
+        margin-top: 60px;}
+
+
+#Siri { height: 503px;
+        width: 287px;
+        margin: 100px 10px 10px 24px;
+        background-image: url('../img/Siri-2.gif');
+        background-position: center center;
+        -webkit-transition: all 500ms ease; }
+
+#Siri:hover { background-image: url('../img/Siri-2Loop.gif');} 
+
+#glasses { width: 600px;
+            height: 400px;
+        background-image: url('../img/Google-glass.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center; } 
+
+
+#video {  
+            width: 600px;} 
+
+#video img { 	z-index: 0;
+	position: absolute;
+	max-width: 600px;
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out; }
+
+#video:hover img{ opacity: 1; }
+
+#video #image-1 { top: 120
+                    left: 760px;
+                    -webkit-transition-delay: 0s; }
+

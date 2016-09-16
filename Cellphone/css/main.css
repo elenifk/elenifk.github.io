@@ -1,0 +1,89 @@
+* { margin: 0px;
+    padding: 0px;
+    font-family: 'Droid Sans', sans-serif;}
+
+p.main { 
+    font-size: 16px;
+}
+
+#textbox { border: 1px solid green;
+    width: 400px;
+    float: right;} 
+
+#center { border: 1px solid green;
+    width: 400px; 
+float: left; } 
+
+div.white {
+    display: block;
+    height: 800px;
+    width: auto;
+   }
+
+div.blue {
+    border: 1px solid green;
+    height: 500px;
+    width: auto;  }
+
+div.blue2 {
+    height: 800px;
+    width: auto;}
+
+div.blue3 { 
+    height: 1000px;
+    width: auto;
+    background-color: black; }
+
+
+
+h1 { 
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px; }
+h2 { 
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    color: white; }
+
+img.small {
+    display: block;
+    margin: 0px auto;
+    height: 300px; }
+
+img.medium {
+    display: inline;
+        height: 400px;
+        float: right;}
+img.large { display: inline;
+        margin: 20px;
+        height: 600px; }
+
+#Past { height: 600px;
+        width: 600px;
+        background-image: url('../img/Anim_Cover.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		display: inline-block;
+        float: left;
+
+		-webkit-transition: all 500ms ease;
+
+	}
+
+
+#Past:hover {
+  background-image: url('../img/Anim_past.gif'); }
+
+#Siri { height: 534px;
+        width: 300px;
+        margin: 20px;
+        background-image: url('../img/Siri.gif');
+        background-position: center center;
+        background-position: center center;
+		display: inline-block;
+        -webkit-transition: all 500ms ease; }
+
+
+#Siri:hover {
+    background-image: url('../img/IPhone2.gif'); }
